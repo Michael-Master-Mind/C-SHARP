@@ -1,8 +1,0 @@
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\bin\Debug\Hello World!.exe.config
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\bin\Debug\Hello World!.exe
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\bin\Debug\Hello World!.pdb
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\obj\Debug\Hello World!.csproj.AssemblyReference.cache
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\obj\Debug\Hello World!.csproj.SuggestedBindingRedirects.cache
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\obj\Debug\Hello World!.csproj.CoreCompileInputs.cache
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\obj\Debug\Hello World!.exe
-C:\Users\Mchael dem\Desktop\VS CODE\Hello World!\Hello World!\obj\Debug\Hello World!.pdb
