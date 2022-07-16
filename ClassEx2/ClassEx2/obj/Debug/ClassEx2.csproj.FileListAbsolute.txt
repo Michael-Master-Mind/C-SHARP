@@ -9,3 +9,14 @@ C:\Users\Mchael dem\Desktop\VS CODE\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.
 C:\Users\Mchael dem\Desktop\VS CODE\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.CoreCompileInputs.cache
 C:\Users\Mchael dem\Desktop\VS CODE\ClassEx2\ClassEx2\obj\Debug\ClassEx2.exe
 C:\Users\Mchael dem\Desktop\VS CODE\ClassEx2\ClassEx2\obj\Debug\ClassEx2.pdb
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\bin\Debug\ClassEx2.exe.config
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\bin\Debug\ClassEx2.exe
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\bin\Debug\ClassEx2.pdb
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.AssemblyReference.cache
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.Form1.resources
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.Properties.Resources.resources
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.GenerateResource.cache
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.CoreCompileInputs.cache
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.exe
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.pdb

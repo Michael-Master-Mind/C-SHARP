@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ClassEx2.Iteams
 {
-    internal class Iteam
+    internal class Item
     {
+        public static List<Item> items = new List<Item>();
         public string Number { get; set; }
         public DateTime date { get; set; }
         public string inventory_number { get; set; }
@@ -16,8 +17,11 @@ namespace ClassEx2.Iteams
         public string price { get; set; }
 
         public void save() {
-
-            Console.WriteLine(object_name+" iteam added successfully!!");
+            items.Add(this);
+            Console.WriteLine(" iteam added successfully!!");
+        }
+        static public List<Item> get_add_products() { 
+            return items;
         }
     }
 }
