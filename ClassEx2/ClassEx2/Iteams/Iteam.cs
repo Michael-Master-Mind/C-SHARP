@@ -15,6 +15,7 @@ namespace ClassEx2.Iteams
         public string object_name { get; set; }
         public string count { get; set; }
         public string price { get; set; }
+        public bool isavaliable { get; set; }
 
         public void save() {
             items.Add(this);

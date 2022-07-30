@@ -20,3 +20,4 @@ C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.csproj.CoreCompileInputs.cache
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.exe
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.pdb
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.Form2.resources

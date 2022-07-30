@@ -16,9 +16,10 @@ namespace ClassEx2
     {
         
 
-        public Form1()
+        public Form1(string user)
         {
             InitializeComponent();
+            label9.Text = user;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -30,6 +31,8 @@ namespace ClassEx2
             t.object_name = textBox4.Text;
             t.count =textBox5.Text;
             t.price = textBox6.Text;
+            
+
 
             Regex re = new Regex(@"^[a-z]||[A_Z] {10}$");
             Regex nu = new Regex(@"[0-9]{4}$");
@@ -126,6 +129,64 @@ namespace ClassEx2
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            string message = "";
+            foreach (var item in checkedListBox.CheckedItems)
+            {
+                message += item.ToString();
+            }
+            MessageBox.Show(message);
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked)
+            {
+                MessageBox.Show("Simple");
+
+            }
+            else if (radioButton2.Checked)
+            {
+                MessageBox.Show("Variable");
+            }
+        }
+
+        private void isavaliable_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
