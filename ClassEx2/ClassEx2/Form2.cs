@@ -24,10 +24,10 @@ namespace ClassEx2
             string password = textBox1.Text;
             if (username == "Michael" && password == "admin")
             {
-                Form1 add_items = new Form1(username);
+                Main m = new Main(username);
                 //this.Visible = false;
                 Hide();
-                add_items.Show();
+                m.Show();
             }
             else
             {

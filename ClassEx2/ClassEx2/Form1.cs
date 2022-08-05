@@ -16,21 +16,22 @@ namespace ClassEx2
     {
         
 
-        public Form1(string user)
+        public Form1()
         {
             InitializeComponent();
-            label9.Text = user;
+            
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
             Item t = new Item();
-            t.Number = textBox1.Text;
+            t.Number = num.Text;
             t.date = dateTimePicker1.Value;
-            t.inventory_number = textBox3.Text;
-            t.object_name = textBox4.Text;
-            t.count =textBox5.Text;
-            t.price = textBox6.Text;
+            t.inventory_number = Invento.Text;
+            t.object_name = Obj.Text;
+            t.count =count.Text;
+            t.price = price.Text;
             
 
 
@@ -38,68 +39,68 @@ namespace ClassEx2
             Regex nu = new Regex(@"[0-9]{4}$");
             Regex nm = new Regex(@"[0-9]");
 
-            if (string.IsNullOrEmpty(textBox1.Text))
+            if (string.IsNullOrEmpty(num.Text))
             {
 
-                errorProvider1.SetError(textBox1, "Number must be provided!!!  ");
+                errorProvider1.SetError(num, "Number must be provided!!!  ");
             }
-            else if (!nu.IsMatch(textBox1.Text))
+            else if (!nu.IsMatch(num.Text))
             {
-                errorProvider1.SetError(textBox1, "Number must be 0-9 (4 Digits)!!! ");
+                errorProvider1.SetError(num, "Number must be 0-9 (4 Digits)!!! ");
             }
             else
             {
                 errorProvider1.Clear();
             }
 
-            if (string.IsNullOrEmpty(textBox3.Text))
+            if (string.IsNullOrEmpty(Invento.Text))
             {
-                errorProvider1.SetError(textBox3, "Inventory Number must be provided!!! ");
+                errorProvider1.SetError(Invento, "Inventory Number must be provided!!! ");
             }
-            else if (!nu.IsMatch(textBox3.Text))
+            else if (!nu.IsMatch(Invento.Text))
             {
 
-                errorProvider1.SetError(textBox3, "Number must be 0-9 (4 Digits)!!! ");
+                errorProvider1.SetError(Invento, "Number must be 0-9 (4 Digits)!!! ");
             }
             else
             {
                 errorProvider1.Clear();
             }
-            if (string.IsNullOrEmpty(textBox4.Text))
+            if (string.IsNullOrEmpty(Obj.Text))
             {
-                errorProvider1.SetError(textBox4, "Object Name must be provided!!! ");
+                errorProvider1.SetError(Obj, "Object Name must be provided!!! ");
 
             }
 
-            else if (!re.IsMatch(textBox4.Text))
+            else if (!re.IsMatch(Obj.Text))
             {
-                errorProvider1.SetError(textBox4, "Letter must be a-z or A-Z (10 characters )!!!  ");
+                errorProvider1.SetError(Obj, "Letter must be a-z or A-Z (10 characters )!!!  ");
             }
             else
             {
                 errorProvider1.Clear();
             }
-            if (string.IsNullOrEmpty(textBox5.Text))
+            if (string.IsNullOrEmpty(count.Text))
             {
-                errorProvider1.SetError(textBox5, "Count must be provided!!!  ");
+                errorProvider1.SetError(count, "Count must be provided!!!  ");
 
             }
-            else if (!nm.IsMatch(textBox5.Text))
+            else if (!nm.IsMatch(count.Text))
             {
 
-                errorProvider1.SetError(textBox5, "Number must be 0-9 !!!  ");
+                errorProvider1.SetError(count, "Number must be 0-9 !!!  ");
             }
             try
             {
-                if (string.IsNullOrEmpty(textBox6.Text))
+                if (string.IsNullOrEmpty(price.Text))
                 {
 
-                    errorProvider1.SetError(textBox6, "Price must be provided!!!  ");
+                    errorProvider1.SetError(price, "Price must be provided!!!  ");
                 }
-                else if (!nm.IsMatch(textBox6.Text))
+                else if (!nm.IsMatch(price.Text))
                 {
 
-                    errorProvider1.SetError(textBox6, "Number must be 0-9 !!!  ");
+                    errorProvider1.SetError(price, "Number must be 0-9 !!!  ");
                 }
                 else
                 {

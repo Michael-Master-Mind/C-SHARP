@@ -16,6 +16,10 @@ namespace ClassEx2.Iteams
         public string count { get; set; }
         public string price { get; set; }
         public bool isavaliable { get; set; }
+        public static Item findOne(string name)
+        {
+            return items.Find(t => t.object_name == name);
+        }
 
         public void save() {
             items.Add(this);

@@ -21,3 +21,5 @@ C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.exe
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.pdb
 C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.Form2.resources
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.Main.resources
+C:\Users\Mchael dem\Documents\GitHub\C-SHARP\ClassEx2\ClassEx2\obj\Debug\ClassEx2.DisplayAllProduct.resources
