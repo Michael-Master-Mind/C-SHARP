@@ -34,10 +34,9 @@
             this.displayStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateStudentToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.departementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addDepartementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.displayDepartementToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -70,7 +69,7 @@
             // 
             this.studentToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.studentToolStripMenuItem.Name = "studentToolStripMenuItem";
-            this.studentToolStripMenuItem.Size = new System.Drawing.Size(163, 26);
+            this.studentToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.studentToolStripMenuItem.Text = "Register";
             this.studentToolStripMenuItem.Click += new System.EventHandler(this.studentToolStripMenuItem_Click);
             // 
@@ -78,7 +77,7 @@
             // 
             this.displayStudentToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.displayStudentToolStripMenuItem.Name = "displayStudentToolStripMenuItem";
-            this.displayStudentToolStripMenuItem.Size = new System.Drawing.Size(163, 26);
+            this.displayStudentToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.displayStudentToolStripMenuItem.Text = "Display All";
             this.displayStudentToolStripMenuItem.Click += new System.EventHandler(this.displayStudentToolStripMenuItem_Click);
             // 
@@ -94,25 +93,10 @@
             // 
             this.departementToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.departementToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addDepartementToolStripMenuItem,
-            this.displayDepartementToolStripMenuItem});
+            this.viewToolStripMenuItem});
             this.departementToolStripMenuItem.Name = "departementToolStripMenuItem";
-            this.departementToolStripMenuItem.Size = new System.Drawing.Size(111, 26);
-            this.departementToolStripMenuItem.Text = "Departement";
-            // 
-            // addDepartementToolStripMenuItem
-            // 
-            this.addDepartementToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.addDepartementToolStripMenuItem.Name = "addDepartementToolStripMenuItem";
-            this.addDepartementToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
-            this.addDepartementToolStripMenuItem.Text = "Add Departement";
-            // 
-            // displayDepartementToolStripMenuItem
-            // 
-            this.displayDepartementToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.displayDepartementToolStripMenuItem.Name = "displayDepartementToolStripMenuItem";
-            this.displayDepartementToolStripMenuItem.Size = new System.Drawing.Size(233, 26);
-            this.displayDepartementToolStripMenuItem.Text = "Display Departement";
+            this.departementToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
+            this.departementToolStripMenuItem.Text = "Source";
             // 
             // label11
             // 
@@ -135,6 +119,14 @@
             this.label1.Size = new System.Drawing.Size(82, 29);
             this.label1.TabIndex = 3;
             this.label1.Text = "Hello,";
+            // 
+            // viewToolStripMenuItem
+            // 
+            this.viewToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.viewToolStripMenuItem.Name = "viewToolStripMenuItem";
+            this.viewToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.viewToolStripMenuItem.Text = "View ";
+            this.viewToolStripMenuItem.Click += new System.EventHandler(this.viewToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -163,10 +155,9 @@
         private System.Windows.Forms.ToolStripMenuItem studentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateStudentToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem departementToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addDepartementToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem displayDepartementToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem displayStudentToolStripMenuItem;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
     }
 }

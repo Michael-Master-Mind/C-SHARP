@@ -55,7 +55,16 @@ namespace ClassEx2
 
         private void updateStudentToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            search s = new search();
+            s.MdiParent = this;
+            s.Show();
+        }
 
+        private void viewToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form4 f4 = new Form4();
+            f4.MdiParent = this;
+            f4.Show();
         }
     }
 }

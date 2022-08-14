@@ -22,14 +22,7 @@ namespace ClassEx2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var item = Item.findOne(search.Text);
-            if (item == null)
-            {  
-                MessageBox.Show("Item not found!");
-            }
-            lblOb.Text = item.object_name;
-            lblcount.Text = item.count;
-            lblprice.Text = item.price; 
+            
                
         }
 
